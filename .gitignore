@@ -1,0 +1,10 @@
+# mini-chameleon checkout created by setup.sh
+/mini-chameleon/
+
+# build and run outputs
+build/
+perfs/
+__pycache__/
+*.pyc
+.venv/
+venv/

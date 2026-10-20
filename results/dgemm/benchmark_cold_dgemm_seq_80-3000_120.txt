@@ -1,0 +1,904 @@
+Version: dgemm
+
+----------------------------------------------------------------------
+
+Taille: 80
+Sortie:
+tA=NoTrans tB=NoTrans M=   80 N=   80 K=   80: 2.652850e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   80 N=   80 K=   80: 4.491228e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   80 N=   80 K=   80: 4.491228e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   80 N=   80 K=   80: 4.530973e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   80 N=   80 K=   80: 4.491228e+00 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 83
+Sortie:
+tA=NoTrans tB=NoTrans M=   83 N=   83 K=   83: 3.150342e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   83 N=   83 K=   83: 4.398362e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   83 N=   83 K=   83: 4.432457e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   83 N=   83 K=   83: 4.398362e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   83 N=   83 K=   83: 4.449704e+00 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 86
+Sortie:
+tA=NoTrans tB=NoTrans M=   86 N=   86 K=   86: 3.117922e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   86 N=   86 K=   86: 4.012972e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   86 N=   86 K=   86: 4.341679e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   86 N=   86 K=   86: 4.326912e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   86 N=   86 K=   86: 4.240373e+00 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 89
+Sortie:
+tA=NoTrans tB=NoTrans M=   89 N=   89 K=   89: 4.311737e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   89 N=   89 K=   89: 5.874742e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   89 N=   89 K=   89: 5.924109e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   89 N=   89 K=   89: 5.924109e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   89 N=   89 K=   89: 5.949105e+00 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 93
+Sortie:
+tA=NoTrans tB=NoTrans M=   93 N=   93 K=   93: 4.031865e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   93 N=   93 K=   93: 5.566484e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   93 N=   93 K=   93: 5.547290e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   93 N=   93 K=   93: 5.566484e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   93 N=   93 K=   93: 5.566484e+00 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 96
+Sortie:
+tA=NoTrans tB=NoTrans M=   96 N=   96 K=   96: 5.745039e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   96 N=   96 K=   96: 7.899429e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   96 N=   96 K=   96: 8.116844e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   96 N=   96 K=   96: 7.934852e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=   96 N=   96 K=   96: 8.154249e+00 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 100
+Sortie:
+tA=NoTrans tB=NoTrans M=  100 N=  100 K=  100: 5.141388e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  100 N=  100 K=  100: 6.493506e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  100 N=  100 K=  100: 6.410256e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  100 N=  100 K=  100: 6.514658e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  100 N=  100 K=  100: 6.269592e+00 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 103
+Sortie:
+tA=NoTrans tB=NoTrans M=  103 N=  103 K=  103: 4.889159e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  103 N=  103 K=  103: 6.087616e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  103 N=  103 K=  103: 6.191088e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  103 N=  103 K=  103: 6.298138e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  103 N=  103 K=  103: 6.316341e+00 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 107
+Sortie:
+tA=NoTrans tB=NoTrans M=  107 N=  107 K=  107: 6.005113e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  107 N=  107 K=  107: 7.704673e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  107 N=  107 K=  107: 7.954825e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  107 N=  107 K=  107: 7.802822e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  107 N=  107 K=  107: 7.954825e+00 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 111
+Sortie:
+tA=NoTrans tB=NoTrans M=  111 N=  111 K=  111: 5.710359e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  111 N=  111 K=  111: 6.804134e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  111 N=  111 K=  111: 6.907227e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  111 N=  111 K=  111: 7.217050e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  111 N=  111 K=  111: 7.086171e+00 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 115
+Sortie:
+tA=NoTrans tB=NoTrans M=  115 N=  115 K=  115: 7.294365e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  115 N=  115 K=  115: 9.052827e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  115 N=  115 K=  115: 8.868076e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  115 N=  115 K=  115: 9.565252e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  115 N=  115 K=  115: 9.273628e+00 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 120
+Sortie:
+tA=NoTrans tB=NoTrans M=  120 N=  120 K=  120: 1.001739e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  120 N=  120 K=  120: 1.261314e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  120 N=  120 K=  120: 1.299248e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  120 N=  120 K=  120: 1.299248e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  120 N=  120 K=  120: 1.275277e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 124
+Sortie:
+tA=NoTrans tB=NoTrans M=  124 N=  124 K=  124: 5.355685e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  124 N=  124 K=  124: 6.678193e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  124 N=  124 K=  124: 6.689909e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  124 N=  124 K=  124: 6.678193e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  124 N=  124 K=  124: 6.737187e+00 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 129
+Sortie:
+tA=NoTrans tB=NoTrans M=  129 N=  129 K=  129: 7.167576e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  129 N=  129 K=  129: 9.757677e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  129 N=  129 K=  129: 8.116026e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  129 N=  129 K=  129: 8.209136e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  129 N=  129 K=  129: 8.224862e+00 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 134
+Sortie:
+tA=NoTrans tB=NoTrans M=  134 N=  134 K=  134: 6.306957e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  134 N=  134 K=  134: 8.340049e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  134 N=  134 K=  134: 7.004670e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  134 N=  134 K=  134: 7.035392e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  134 N=  134 K=  134: 6.964122e+00 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 139
+Sortie:
+tA=NoTrans tB=NoTrans M=  139 N=  139 K=  139: 7.673197e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  139 N=  139 K=  139: 1.040938e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  139 N=  139 K=  139: 8.288948e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  139 N=  139 K=  139: 8.250750e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  139 N=  139 K=  139: 8.225479e+00 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 144
+Sortie:
+tA=NoTrans tB=NoTrans M=  144 N=  144 K=  144: 9.187643e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  144 N=  144 K=  144: 1.189635e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  144 N=  144 K=  144: 1.005382e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  144 N=  144 K=  144: 1.008778e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  144 N=  144 K=  144: 1.000330e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 149
+Sortie:
+tA=NoTrans tB=NoTrans M=  149 N=  149 K=  149: 7.543783e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  149 N=  149 K=  149: 8.762779e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  149 N=  149 K=  149: 7.932731e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  149 N=  149 K=  149: 7.932731e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  149 N=  149 K=  149: 7.923231e+00 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 155
+Sortie:
+tA=NoTrans tB=NoTrans M=  155 N=  155 K=  155: 8.482631e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  155 N=  155 K=  155: 9.560655e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  155 N=  155 K=  155: 8.898148e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  155 N=  155 K=  155: 8.940876e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  155 N=  155 K=  155: 8.962395e+00 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 160
+Sortie:
+tA=NoTrans tB=NoTrans M=  160 N=  160 K=  160: 9.660377e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  160 N=  160 K=  160: 1.152180e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  160 N=  160 K=  160: 1.051605e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  160 N=  160 K=  160: 1.075066e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  160 N=  160 K=  160: 1.048912e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 166
+Sortie:
+tA=NoTrans tB=NoTrans M=  166 N=  166 K=  166: 8.294281e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  166 N=  166 K=  166: 9.269090e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  166 N=  166 K=  166: 8.598301e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  166 N=  166 K=  166: 8.590227e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  166 N=  166 K=  166: 8.598301e+00 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 173
+Sortie:
+tA=NoTrans tB=NoTrans M=  173 N=  173 K=  173: 8.615170e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  173 N=  173 K=  173: 9.346060e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  173 N=  173 K=  173: 9.172218e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  173 N=  173 K=  173: 9.180349e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  173 N=  173 K=  173: 9.172218e+00 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 179
+Sortie:
+tA=NoTrans tB=NoTrans M=  179 N=  179 K=  179: 1.000059e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  179 N=  179 K=  179: 1.119091e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  179 N=  179 K=  179: 1.033394e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  179 N=  179 K=  179: 1.037132e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  179 N=  179 K=  179: 1.035260e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 186
+Sortie:
+tA=NoTrans tB=NoTrans M=  186 N=  186 K=  186: 1.137906e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  186 N=  186 K=  186: 1.259267e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  186 N=  186 K=  186: 1.205029e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  186 N=  186 K=  186: 1.207290e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  186 N=  186 K=  186: 1.207290e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 193
+Sortie:
+tA=NoTrans tB=NoTrans M=  193 N=  193 K=  193: 1.235233e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  193 N=  193 K=  193: 1.368041e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  193 N=  193 K=  193: 1.300010e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  193 N=  193 K=  193: 1.310676e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  193 N=  193 K=  193: 1.294160e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 200
+Sortie:
+tA=NoTrans tB=NoTrans M=  200 N=  200 K=  200: 1.333333e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  200 N=  200 K=  200: 1.434978e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  200 N=  200 K=  200: 1.437556e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  200 N=  200 K=  200: 1.431127e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  200 N=  200 K=  200: 1.419698e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 207
+Sortie:
+tA=NoTrans tB=NoTrans M=  207 N=  207 K=  207: 1.016589e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  207 N=  207 K=  207: 1.077733e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  207 N=  207 K=  207: 1.080358e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  207 N=  207 K=  207: 1.083658e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  207 N=  207 K=  207: 1.082997e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 215
+Sortie:
+tA=NoTrans tB=NoTrans M=  215 N=  215 K=  215: 1.049459e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  215 N=  215 K=  215: 1.082022e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  215 N=  215 K=  215: 1.092129e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  215 N=  215 K=  215: 1.095138e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  215 N=  215 K=  215: 1.100595e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 223
+Sortie:
+tA=NoTrans tB=NoTrans M=  223 N=  223 K=  223: 1.102891e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  223 N=  223 K=  223: 1.178487e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  223 N=  223 K=  223: 1.168553e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  223 N=  223 K=  223: 1.174742e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  223 N=  223 K=  223: 1.174120e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 231
+Sortie:
+tA=NoTrans tB=NoTrans M=  231 N=  231 K=  231: 1.074664e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  231 N=  231 K=  231: 1.140804e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  231 N=  231 K=  231: 1.133983e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  231 N=  231 K=  231: 1.181255e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  231 N=  231 K=  231: 1.192107e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 240
+Sortie:
+tA=NoTrans tB=NoTrans M=  240 N=  240 K=  240: 1.646694e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  240 N=  240 K=  240: 1.756544e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  240 N=  240 K=  240: 1.764391e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  240 N=  240 K=  240: 1.773445e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  240 N=  240 K=  240: 1.753202e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 249
+Sortie:
+tA=NoTrans tB=NoTrans M=  249 N=  249 K=  249: 1.266988e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  249 N=  249 K=  249: 1.503970e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  249 N=  249 K=  249: 1.407957e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  249 N=  249 K=  249: 1.427485e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  249 N=  249 K=  249: 1.425508e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 258
+Sortie:
+tA=NoTrans tB=NoTrans M=  258 N=  258 K=  258: 1.354912e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  258 N=  258 K=  258: 1.509759e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  258 N=  258 K=  258: 1.435912e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  258 N=  258 K=  258: 1.419885e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  258 N=  258 K=  258: 1.437114e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 268
+Sortie:
+tA=NoTrans tB=NoTrans M=  268 N=  268 K=  268: 1.233504e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  268 N=  268 K=  268: 1.365650e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  268 N=  268 K=  268: 1.349848e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  268 N=  268 K=  268: 1.352694e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  268 N=  268 K=  268: 1.339515e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 278
+Sortie:
+tA=NoTrans tB=NoTrans M=  278 N=  278 K=  278: 1.186031e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  278 N=  278 K=  278: 1.309260e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  278 N=  278 K=  278: 1.296618e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  278 N=  278 K=  278: 1.295054e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  278 N=  278 K=  278: 1.302118e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 288
+Sortie:
+tA=NoTrans tB=NoTrans M=  288 N=  288 K=  288: 1.594651e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  288 N=  288 K=  288: 1.779357e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  288 N=  288 K=  288: 1.757754e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  288 N=  288 K=  288: 1.755171e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  288 N=  288 K=  288: 1.757107e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 299
+Sortie:
+tA=NoTrans tB=NoTrans M=  299 N=  299 K=  299: 1.409858e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  299 N=  299 K=  299: 1.527480e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  299 N=  299 K=  299: 1.504271e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  299 N=  299 K=  299: 1.520962e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  299 N=  299 K=  299: 1.507240e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 310
+Sortie:
+tA=NoTrans tB=NoTrans M=  310 N=  310 K=  310: 1.343450e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  310 N=  310 K=  310: 1.409224e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  310 N=  310 K=  310: 1.409558e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  310 N=  310 K=  310: 1.409558e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  310 N=  310 K=  310: 1.411896e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 322
+Sortie:
+tA=NoTrans tB=NoTrans M=  322 N=  322 K=  322: 1.565225e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  322 N=  322 K=  322: 1.637785e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  322 N=  322 K=  322: 1.665150e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  322 N=  322 K=  322: 1.670147e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  322 N=  322 K=  322: 1.670983e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 334
+Sortie:
+tA=NoTrans tB=NoTrans M=  334 N=  334 K=  334: 1.426755e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  334 N=  334 K=  334: 1.480616e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  334 N=  334 K=  334: 1.495173e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  334 N=  334 K=  334: 1.494873e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  334 N=  334 K=  334: 1.494273e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 346
+Sortie:
+tA=NoTrans tB=NoTrans M=  346 N=  346 K=  346: 1.612682e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  346 N=  346 K=  346: 1.741141e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  346 N=  346 K=  346: 1.758885e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  346 N=  346 K=  346: 1.759632e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  346 N=  346 K=  346: 1.759258e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 359
+Sortie:
+tA=NoTrans tB=NoTrans M=  359 N=  359 K=  359: 1.446336e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  359 N=  359 K=  359: 1.511048e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  359 N=  359 K=  359: 1.519484e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  359 N=  359 K=  359: 1.520982e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  359 N=  359 K=  359: 1.522233e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 372
+Sortie:
+tA=NoTrans tB=NoTrans M=  372 N=  372 K=  372: 1.493223e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  372 N=  372 K=  372: 1.573074e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  372 N=  372 K=  372: 1.576446e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  372 N=  372 K=  372: 1.576446e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  372 N=  372 K=  372: 1.575240e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 386
+Sortie:
+tA=NoTrans tB=NoTrans M=  386 N=  386 K=  386: 1.620982e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  386 N=  386 K=  386: 1.714231e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  386 N=  386 K=  386: 1.715765e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  386 N=  386 K=  386: 1.718842e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  386 N=  386 K=  386: 1.717815e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 401
+Sortie:
+tA=NoTrans tB=NoTrans M=  401 N=  401 K=  401: 1.065805e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  401 N=  401 K=  401: 1.207287e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  401 N=  401 K=  401: 1.310194e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  401 N=  401 K=  401: 1.410967e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  401 N=  401 K=  401: 1.496257e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 415
+Sortie:
+tA=NoTrans tB=NoTrans M=  415 N=  415 K=  415: 9.622156e+00 GFlop/s
+tA=NoTrans tB=NoTrans M=  415 N=  415 K=  415: 1.104774e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  415 N=  415 K=  415: 1.211208e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  415 N=  415 K=  415: 1.304497e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  415 N=  415 K=  415: 1.389586e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 431
+Sortie:
+tA=NoTrans tB=NoTrans M=  431 N=  431 K=  431: 1.471070e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  431 N=  431 K=  431: 1.563730e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  431 N=  431 K=  431: 1.568632e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  431 N=  431 K=  431: 1.567864e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  431 N=  431 K=  431: 1.568786e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 447
+Sortie:
+tA=NoTrans tB=NoTrans M=  447 N=  447 K=  447: 1.546306e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  447 N=  447 K=  447: 1.633406e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  447 N=  447 K=  447: 1.635799e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  447 N=  447 K=  447: 1.635350e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  447 N=  447 K=  447: 1.634751e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 464
+Sortie:
+tA=NoTrans tB=NoTrans M=  464 N=  464 K=  464: 1.944852e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  464 N=  464 K=  464: 2.084452e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  464 N=  464 K=  464: 2.099566e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  464 N=  464 K=  464: 2.100670e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  464 N=  464 K=  464: 2.100891e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 481
+Sortie:
+tA=NoTrans tB=NoTrans M=  481 N=  481 K=  481: 1.785267e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  481 N=  481 K=  481: 1.939940e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  481 N=  481 K=  481: 1.945196e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  481 N=  481 K=  481: 1.945876e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  481 N=  481 K=  481: 1.944176e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 499
+Sortie:
+tA=NoTrans tB=NoTrans M=  499 N=  499 K=  499: 1.721650e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  499 N=  499 K=  499: 1.851460e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  499 N=  499 K=  499: 1.855746e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  499 N=  499 K=  499: 1.856440e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  499 N=  499 K=  499: 1.855192e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 518
+Sortie:
+tA=NoTrans tB=NoTrans M=  518 N=  518 K=  518: 1.628492e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  518 N=  518 K=  518: 1.725535e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  518 N=  518 K=  518: 1.729077e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  518 N=  518 K=  518: 1.726928e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  518 N=  518 K=  518: 1.727787e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 537
+Sortie:
+tA=NoTrans tB=NoTrans M=  537 N=  537 K=  537: 1.860110e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  537 N=  537 K=  537: 1.974173e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  537 N=  537 K=  537: 1.979852e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  537 N=  537 K=  537: 1.975685e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  537 N=  537 K=  537: 1.978461e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 557
+Sortie:
+tA=NoTrans tB=NoTrans M=  557 N=  557 K=  557: 1.699702e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  557 N=  557 K=  557: 1.776496e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  557 N=  557 K=  557: 1.780340e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  557 N=  557 K=  557: 1.783371e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  557 N=  557 K=  557: 1.784476e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 578
+Sortie:
+tA=NoTrans tB=NoTrans M=  578 N=  578 K=  578: 1.908485e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  578 N=  578 K=  578: 1.978793e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  578 N=  578 K=  578: 1.983672e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  578 N=  578 K=  578: 1.984895e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  578 N=  578 K=  578: 1.986631e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 599
+Sortie:
+tA=NoTrans tB=NoTrans M=  599 N=  599 K=  599: 1.696773e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  599 N=  599 K=  599: 1.712866e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  599 N=  599 K=  599: 1.739694e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  599 N=  599 K=  599: 1.741315e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  599 N=  599 K=  599: 1.741879e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 622
+Sortie:
+tA=NoTrans tB=NoTrans M=  622 N=  622 K=  622: 1.697650e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  622 N=  622 K=  622: 1.693707e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  622 N=  622 K=  622: 1.697949e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  622 N=  622 K=  622: 1.700469e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  622 N=  622 K=  622: 1.701731e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 645
+Sortie:
+tA=NoTrans tB=NoTrans M=  645 N=  645 K=  645: 1.776531e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  645 N=  645 K=  645: 1.772190e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  645 N=  645 K=  645: 1.778179e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  645 N=  645 K=  645: 1.776296e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  645 N=  645 K=  645: 1.776943e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 669
+Sortie:
+tA=NoTrans tB=NoTrans M=  669 N=  669 K=  669: 1.809830e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  669 N=  669 K=  669: 1.813283e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  669 N=  669 K=  669: 1.812734e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  669 N=  669 K=  669: 1.815151e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  669 N=  669 K=  669: 1.813997e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 694
+Sortie:
+tA=NoTrans tB=NoTrans M=  694 N=  694 K=  694: 1.798087e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  694 N=  694 K=  694: 1.802742e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  694 N=  694 K=  694: 1.803374e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  694 N=  694 K=  694: 1.801139e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  694 N=  694 K=  694: 1.802062e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 720
+Sortie:
+tA=NoTrans tB=NoTrans M=  720 N=  720 K=  720: 2.128953e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  720 N=  720 K=  720: 2.148066e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  720 N=  720 K=  720: 2.145412e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  720 N=  720 K=  720: 2.145967e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  720 N=  720 K=  720: 2.145658e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 746
+Sortie:
+tA=NoTrans tB=NoTrans M=  746 N=  746 K=  746: 1.946873e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  746 N=  746 K=  746: 1.956230e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  746 N=  746 K=  746: 1.956230e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  746 N=  746 K=  746: 1.956507e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  746 N=  746 K=  746: 1.956046e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 774
+Sortie:
+tA=NoTrans tB=NoTrans M=  774 N=  774 K=  774: 1.857563e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  774 N=  774 K=  774: 1.860395e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  774 N=  774 K=  774: 1.861142e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  774 N=  774 K=  774: 1.860320e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  774 N=  774 K=  774: 1.859835e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 803
+Sortie:
+tA=NoTrans tB=NoTrans M=  803 N=  803 K=  803: 1.599276e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  803 N=  803 K=  803: 1.977134e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  803 N=  803 K=  803: 1.969800e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  803 N=  803 K=  803: 1.981598e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  803 N=  803 K=  803: 1.982015e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 833
+Sortie:
+tA=NoTrans tB=NoTrans M=  833 N=  833 K=  833: 1.702131e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  833 N=  833 K=  833: 2.080443e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  833 N=  833 K=  833: 2.083781e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  833 N=  833 K=  833: 2.083668e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  833 N=  833 K=  833: 2.083105e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 864
+Sortie:
+tA=NoTrans tB=NoTrans M=  864 N=  864 K=  864: 2.138929e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  864 N=  864 K=  864: 2.124625e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  864 N=  864 K=  864: 2.124590e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  864 N=  864 K=  864: 2.126166e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  864 N=  864 K=  864: 2.125185e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 896
+Sortie:
+tA=NoTrans tB=NoTrans M=  896 N=  896 K=  896: 2.156568e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  896 N=  896 K=  896: 2.146977e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  896 N=  896 K=  896: 2.148484e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  896 N=  896 K=  896: 2.144577e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  896 N=  896 K=  896: 2.145888e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 930
+Sortie:
+tA=NoTrans tB=NoTrans M=  930 N=  930 K=  930: 2.138792e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  930 N=  930 K=  930: 2.144523e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  930 N=  930 K=  930: 2.142609e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  930 N=  930 K=  930: 2.144380e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  930 N=  930 K=  930: 2.142609e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 964
+Sortie:
+tA=NoTrans tB=NoTrans M=  964 N=  964 K=  964: 2.022855e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  964 N=  964 K=  964: 2.024340e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  964 N=  964 K=  964: 2.026928e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  964 N=  964 K=  964: 2.027249e+01 GFlop/s
+tA=NoTrans tB=NoTrans M=  964 N=  964 K=  964: 2.028029e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 1000
+Sortie:
+tA=NoTrans tB=NoTrans M= 1000 N= 1000 K= 1000: 2.179504e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1000 N= 1000 K= 1000: 2.190844e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1000 N= 1000 K= 1000: 2.188280e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1000 N= 1000 K= 1000: 2.189789e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1000 N= 1000 K= 1000: 2.185983e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 1038
+Sortie:
+tA=NoTrans tB=NoTrans M= 1038 N= 1038 K= 1038: 2.061923e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1038 N= 1038 K= 1038: 2.062664e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1038 N= 1038 K= 1038: 2.063121e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1038 N= 1038 K= 1038: 2.058943e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1038 N= 1038 K= 1038: 2.061942e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 1076
+Sortie:
+tA=NoTrans tB=NoTrans M= 1076 N= 1076 K= 1076: 2.143624e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1076 N= 1076 K= 1076: 2.144214e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1076 N= 1076 K= 1076: 2.141027e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1076 N= 1076 K= 1076: 2.140511e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1076 N= 1076 K= 1076: 2.137702e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 1116
+Sortie:
+tA=NoTrans tB=NoTrans M= 1116 N= 1116 K= 1116: 2.131499e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1116 N= 1116 K= 1116: 2.117116e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1116 N= 1116 K= 1116: 2.118358e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1116 N= 1116 K= 1116: 2.115730e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1116 N= 1116 K= 1116: 2.118729e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 1158
+Sortie:
+tA=NoTrans tB=NoTrans M= 1158 N= 1158 K= 1158: 2.096911e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1158 N= 1158 K= 1158: 2.094027e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1158 N= 1158 K= 1158: 2.095327e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1158 N= 1158 K= 1158: 2.093759e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1158 N= 1158 K= 1158: 2.094747e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 1201
+Sortie:
+tA=NoTrans tB=NoTrans M= 1201 N= 1201 K= 1201: 2.232246e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1201 N= 1201 K= 1201: 2.236050e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1201 N= 1201 K= 1201: 2.235819e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1201 N= 1201 K= 1201: 2.236136e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1201 N= 1201 K= 1201: 2.235602e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 1246
+Sortie:
+tA=NoTrans tB=NoTrans M= 1246 N= 1246 K= 1246: 2.072505e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1246 N= 1246 K= 1246: 2.074895e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1246 N= 1246 K= 1246: 2.073416e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1246 N= 1246 K= 1246: 2.072194e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1246 N= 1246 K= 1246: 2.073072e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 1293
+Sortie:
+tA=NoTrans tB=NoTrans M= 1293 N= 1293 K= 1293: 2.136332e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1293 N= 1293 K= 1293: 2.139027e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1293 N= 1293 K= 1293: 2.139789e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1293 N= 1293 K= 1293: 2.139419e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1293 N= 1293 K= 1293: 2.139842e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 1341
+Sortie:
+tA=NoTrans tB=NoTrans M= 1341 N= 1341 K= 1341: 2.127899e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1341 N= 1341 K= 1341: 2.110404e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1341 N= 1341 K= 1341: 2.110200e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1341 N= 1341 K= 1341: 2.111401e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1341 N= 1341 K= 1341: 2.109850e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 1391
+Sortie:
+tA=NoTrans tB=NoTrans M= 1391 N= 1391 K= 1391: 2.099416e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1391 N= 1391 K= 1391: 2.090805e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1391 N= 1391 K= 1391: 2.090512e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1391 N= 1391 K= 1391: 2.089830e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1391 N= 1391 K= 1391: 2.090602e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 1443
+Sortie:
+tA=NoTrans tB=NoTrans M= 1443 N= 1443 K= 1443: 2.211539e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1443 N= 1443 K= 1443: 2.216171e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1443 N= 1443 K= 1443: 2.216310e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1443 N= 1443 K= 1443: 2.215069e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1443 N= 1443 K= 1443: 2.216368e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 1496
+Sortie:
+tA=NoTrans tB=NoTrans M= 1496 N= 1496 K= 1496: 2.324646e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1496 N= 1496 K= 1496: 2.325858e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1496 N= 1496 K= 1496: 2.325849e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1496 N= 1496 K= 1496: 2.326924e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1496 N= 1496 K= 1496: 2.326771e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 1552
+Sortie:
+tA=NoTrans tB=NoTrans M= 1552 N= 1552 K= 1552: 2.354677e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1552 N= 1552 K= 1552: 2.355575e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1552 N= 1552 K= 1552: 2.356050e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1552 N= 1552 K= 1552: 2.355026e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1552 N= 1552 K= 1552: 2.355189e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 1610
+Sortie:
+tA=NoTrans tB=NoTrans M= 1610 N= 1610 K= 1610: 2.306343e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1610 N= 1610 K= 1610: 2.296779e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1610 N= 1610 K= 1610: 2.296576e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1610 N= 1610 K= 1610: 2.296254e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1610 N= 1610 K= 1610: 2.216570e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 1670
+Sortie:
+tA=NoTrans tB=NoTrans M= 1670 N= 1670 K= 1670: 2.250787e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1670 N= 1670 K= 1670: 2.257431e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1670 N= 1670 K= 1670: 2.256004e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1670 N= 1670 K= 1670: 2.256299e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1670 N= 1670 K= 1670: 2.247376e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 1732
+Sortie:
+tA=NoTrans tB=NoTrans M= 1732 N= 1732 K= 1732: 2.270538e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1732 N= 1732 K= 1732: 2.278269e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1732 N= 1732 K= 1732: 2.277790e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1732 N= 1732 K= 1732: 2.204265e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1732 N= 1732 K= 1732: 2.278189e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 1797
+Sortie:
+tA=NoTrans tB=NoTrans M= 1797 N= 1797 K= 1797: 2.297669e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1797 N= 1797 K= 1797: 2.298602e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1797 N= 1797 K= 1797: 2.298925e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1797 N= 1797 K= 1797: 2.226101e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1797 N= 1797 K= 1797: 2.299544e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 1864
+Sortie:
+tA=NoTrans tB=NoTrans M= 1864 N= 1864 K= 1864: 2.414981e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1864 N= 1864 K= 1864: 2.406966e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1864 N= 1864 K= 1864: 2.407745e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1864 N= 1864 K= 1864: 2.322377e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1864 N= 1864 K= 1864: 2.407615e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 1933
+Sortie:
+tA=NoTrans tB=NoTrans M= 1933 N= 1933 K= 1933: 2.318037e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1933 N= 1933 K= 1933: 2.317505e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1933 N= 1933 K= 1933: 2.251413e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1933 N= 1933 K= 1933: 2.317357e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 1933 N= 1933 K= 1933: 2.317628e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 2006
+Sortie:
+tA=NoTrans tB=NoTrans M= 2006 N= 2006 K= 2006: 2.321350e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2006 N= 2006 K= 2006: 2.322589e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2006 N= 2006 K= 2006: 2.255036e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2006 N= 2006 K= 2006: 2.324432e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2006 N= 2006 K= 2006: 2.325697e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 2080
+Sortie:
+tA=NoTrans tB=NoTrans M= 2080 N= 2080 K= 2080: 2.454357e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2080 N= 2080 K= 2080: 2.454759e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2080 N= 2080 K= 2080: 2.379296e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2080 N= 2080 K= 2080: 2.454431e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2080 N= 2080 K= 2080: 2.388490e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 2158
+Sortie:
+tA=NoTrans tB=NoTrans M= 2158 N= 2158 K= 2158: 2.358009e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2158 N= 2158 K= 2158: 2.358889e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2158 N= 2158 K= 2158: 2.355831e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2158 N= 2158 K= 2158: 2.358615e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2158 N= 2158 K= 2158: 2.300899e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 2238
+Sortie:
+tA=NoTrans tB=NoTrans M= 2238 N= 2238 K= 2238: 2.384107e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2238 N= 2238 K= 2238: 2.329372e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2238 N= 2238 K= 2238: 2.384718e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2238 N= 2238 K= 2238: 2.327602e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2238 N= 2238 K= 2238: 2.384858e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 2322
+Sortie:
+tA=NoTrans tB=NoTrans M= 2322 N= 2322 K= 2322: 2.469330e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2322 N= 2322 K= 2322: 2.406953e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2322 N= 2322 K= 2322: 2.465906e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2322 N= 2322 K= 2322: 2.463509e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2322 N= 2322 K= 2322: 2.401650e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 2408
+Sortie:
+tA=NoTrans tB=NoTrans M= 2408 N= 2408 K= 2408: 2.500515e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2408 N= 2408 K= 2408: 2.436872e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2408 N= 2408 K= 2408: 2.438504e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2408 N= 2408 K= 2408: 2.501048e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2408 N= 2408 K= 2408: 2.434637e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 2498
+Sortie:
+tA=NoTrans tB=NoTrans M= 2498 N= 2498 K= 2498: 2.493556e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2498 N= 2498 K= 2498: 2.432492e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2498 N= 2498 K= 2498: 2.431672e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2498 N= 2498 K= 2498: 2.493554e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2498 N= 2498 K= 2498: 2.493400e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 2591
+Sortie:
+tA=NoTrans tB=NoTrans M= 2591 N= 2591 K= 2591: 2.399717e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2591 N= 2591 K= 2591: 2.342130e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2591 N= 2591 K= 2591: 2.364280e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2591 N= 2591 K= 2591: 2.399731e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2591 N= 2591 K= 2591: 2.399358e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 2688
+Sortie:
+tA=NoTrans tB=NoTrans M= 2688 N= 2688 K= 2688: 2.550378e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2688 N= 2688 K= 2688: 2.436796e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2688 N= 2688 K= 2688: 2.495381e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2688 N= 2688 K= 2688: 2.551041e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2688 N= 2688 K= 2688: 2.550689e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 2788
+Sortie:
+tA=NoTrans tB=NoTrans M= 2788 N= 2788 K= 2788: 2.473108e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2788 N= 2788 K= 2788: 2.418558e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2788 N= 2788 K= 2788: 2.425017e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2788 N= 2788 K= 2788: 2.472951e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2788 N= 2788 K= 2788: 2.473534e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 2892
+Sortie:
+tA=NoTrans tB=NoTrans M= 2892 N= 2892 K= 2892: 2.455145e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2892 N= 2892 K= 2892: 2.451625e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2892 N= 2892 K= 2892: 2.453258e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2892 N= 2892 K= 2892: 2.505263e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 2892 N= 2892 K= 2892: 2.450521e+01 GFlop/s
+----------------------------------------------------------------------
+
+Taille: 3000
+Sortie:
+tA=NoTrans tB=NoTrans M= 3000 N= 3000 K= 3000: 2.553568e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 3000 N= 3000 K= 3000: 2.545998e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 3000 N= 3000 K= 3000: 2.551852e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 3000 N= 3000 K= 3000: 2.601734e+01 GFlop/s
+tA=NoTrans tB=NoTrans M= 3000 N= 3000 K= 3000: 2.548544e+01 GFlop/s
+----------------------------------------------------------------------
+

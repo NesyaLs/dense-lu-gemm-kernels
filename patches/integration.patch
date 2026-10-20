@@ -1,0 +1,80 @@
+Registers the kernels of kernels/ in the mini-chameleon build (sources, prototypes, -march=haswell).
+Base: mini-chameleon commit 2a8b12b098c9348af3bbf77166afbc15644a313f
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index be84554..90caae4 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -43,6 +43,8 @@ if( ${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_BINARY_DIR} )
+ ")
+ endif()
+ 
++set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -march=haswell")
++
+ # Disable in source directory build
+ set( CMAKE_DISABLE_IN_SOURCE_BUILD ON )
+ 
+diff --git a/myblas/CMakeLists.txt b/myblas/CMakeLists.txt
+index 71cd4c2..70bcb5f 100644
+--- a/myblas/CMakeLists.txt
++++ b/myblas/CMakeLists.txt
+@@ -27,6 +27,7 @@ set( DGEMM_srcs
+   dgemm_tiled_mpi.c
+   # ADD HERE: your additional dgemm implementation
+   #  dgemm_xxx.c
++  dgemm_tiled.c
+ )
+ 
+ # Define here the list of DGETRF implementation
+@@ -39,6 +40,12 @@ set( DGETRF_srcs
+   dgetrf_tiled_mpi.c
+   # ADD HERE: your additional dgetrf implementation
+   #  dgetrf_xxx.c
++  dgetrf_nbloc.c
++  dgetrf_bloc.c
++  dgetrf_omp2.c
++
++  dgetrf_tiled_mpi2.c
++  dgetrf_tiled_mpi_omp.c
+ )
+ 
+ #------------------------------------------
+diff --git a/myblas/myblas.h b/myblas/myblas.h
+index 226c647..dfc9d2b 100644
+--- a/myblas/myblas.h
++++ b/myblas/myblas.h
+@@ -59,6 +59,34 @@ int dgemm_seq( CBLAS_LAYOUT layout,
+                double alpha, const double *A, int lda,
+                              const double *B, int ldb,
+                double beta,        double *C, int ldc );
++
++int kernel_8x6_avx2(int K, const double *A, int lda, 
++                     const double *B, int ldb, 
++                     double *C, int ldc, 
++                     double alpha, double beta);
++
++int dgemm_blocked( CBLAS_LAYOUT layout,
++               CBLAS_TRANSPOSE transA, CBLAS_TRANSPOSE transB,
++               int M, int N, int K,
++               double alpha, const double *A, int lda,
++                             const double *B, int ldb,
++               double beta,        double *C, int ldc );
++
++int process_tile(CBLAS_LAYOUT layout, CBLAS_TRANSPOSE transA,
++                      CBLAS_TRANSPOSE transB, const int M, const int N,
++                      const int K, const double alpha, const double *A,
++                      const int lda, const double *B, const int ldb,
++                      const double beta, double *C, const int ldc);
++
++int dgemm_tiled( CBLAS_LAYOUT layout,
++               CBLAS_TRANSPOSE transA, CBLAS_TRANSPOSE transB,
++               int M, int N, int K,
++               double alpha, const double *A, int lda,
++                             const double *B, int ldb,
++               double beta,        double *C, int ldc );
++
++void free_tile_array(int M, int N, int b, double **Atile);
++
+ int dgemm_vendor( CBLAS_LAYOUT layout,
+                   CBLAS_TRANSPOSE transA, CBLAS_TRANSPOSE transB,
+                   int M, int N, int K,

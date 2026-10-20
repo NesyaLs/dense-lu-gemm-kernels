@@ -1,0 +1,504 @@
+Version: dgemm
+
+----------------------------------------------------------------------
+
+Taille: 80
+Sortie:
+tA=NoTrans tB=NoTrans M=   80 N=   80 K=   80: 1.814455e+01 GFlop/s (  19531 iterations)
+----------------------------------------------------------------------
+
+Taille: 83
+Sortie:
+tA=NoTrans tB=NoTrans M=   83 N=   83 K=   83: 1.217219e+01 GFlop/s (  17489 iterations)
+----------------------------------------------------------------------
+
+Taille: 86
+Sortie:
+tA=NoTrans tB=NoTrans M=   86 N=   86 K=   86: 9.971382e+00 GFlop/s (  15721 iterations)
+----------------------------------------------------------------------
+
+Taille: 89
+Sortie:
+tA=NoTrans tB=NoTrans M=   89 N=   89 K=   89: 1.465643e+01 GFlop/s (  14185 iterations)
+----------------------------------------------------------------------
+
+Taille: 93
+Sortie:
+tA=NoTrans tB=NoTrans M=   93 N=   93 K=   93: 1.127426e+01 GFlop/s (  12432 iterations)
+----------------------------------------------------------------------
+
+Taille: 96
+Sortie:
+tA=NoTrans tB=NoTrans M=   96 N=   96 K=   96: 2.172417e+01 GFlop/s (  11302 iterations)
+----------------------------------------------------------------------
+
+Taille: 100
+Sortie:
+tA=NoTrans tB=NoTrans M=  100 N=  100 K=  100: 1.263324e+01 GFlop/s (  10000 iterations)
+----------------------------------------------------------------------
+
+Taille: 103
+Sortie:
+tA=NoTrans tB=NoTrans M=  103 N=  103 K=  103: 1.044077e+01 GFlop/s (   9151 iterations)
+----------------------------------------------------------------------
+
+Taille: 107
+Sortie:
+tA=NoTrans tB=NoTrans M=  107 N=  107 K=  107: 1.393706e+01 GFlop/s (   8162 iterations)
+----------------------------------------------------------------------
+
+Taille: 111
+Sortie:
+tA=NoTrans tB=NoTrans M=  111 N=  111 K=  111: 1.051786e+01 GFlop/s (   7311 iterations)
+----------------------------------------------------------------------
+
+Taille: 115
+Sortie:
+tA=NoTrans tB=NoTrans M=  115 N=  115 K=  115: 1.579731e+01 GFlop/s (   6575 iterations)
+----------------------------------------------------------------------
+
+Taille: 120
+Sortie:
+tA=NoTrans tB=NoTrans M=  120 N=  120 K=  120: 2.486770e+01 GFlop/s (   5787 iterations)
+----------------------------------------------------------------------
+
+Taille: 124
+Sortie:
+tA=NoTrans tB=NoTrans M=  124 N=  124 K=  124: 1.144094e+01 GFlop/s (   5244 iterations)
+----------------------------------------------------------------------
+
+Taille: 129
+Sortie:
+tA=NoTrans tB=NoTrans M=  129 N=  129 K=  129: 1.417578e+01 GFlop/s (   4658 iterations)
+----------------------------------------------------------------------
+
+Taille: 134
+Sortie:
+tA=NoTrans tB=NoTrans M=  134 N=  134 K=  134: 1.048965e+01 GFlop/s (   4156 iterations)
+----------------------------------------------------------------------
+
+Taille: 139
+Sortie:
+tA=NoTrans tB=NoTrans M=  139 N=  139 K=  139: 1.253714e+01 GFlop/s (   3723 iterations)
+----------------------------------------------------------------------
+
+Taille: 144
+Sortie:
+tA=NoTrans tB=NoTrans M=  144 N=  144 K=  144: 1.733773e+01 GFlop/s (   3348 iterations)
+----------------------------------------------------------------------
+
+Taille: 149
+Sortie:
+tA=NoTrans tB=NoTrans M=  149 N=  149 K=  149: 1.129294e+01 GFlop/s (   3023 iterations)
+----------------------------------------------------------------------
+
+Taille: 155
+Sortie:
+tA=NoTrans tB=NoTrans M=  155 N=  155 K=  155: 1.295169e+01 GFlop/s (   2685 iterations)
+----------------------------------------------------------------------
+
+Taille: 160
+Sortie:
+tA=NoTrans tB=NoTrans M=  160 N=  160 K=  160: 1.660568e+01 GFlop/s (   2441 iterations)
+----------------------------------------------------------------------
+
+Taille: 166
+Sortie:
+tA=NoTrans tB=NoTrans M=  166 N=  166 K=  166: 1.178423e+01 GFlop/s (   2186 iterations)
+----------------------------------------------------------------------
+
+Taille: 173
+Sortie:
+tA=NoTrans tB=NoTrans M=  173 N=  173 K=  173: 1.273804e+01 GFlop/s (   1931 iterations)
+----------------------------------------------------------------------
+
+Taille: 179
+Sortie:
+tA=NoTrans tB=NoTrans M=  179 N=  179 K=  179: 1.447851e+01 GFlop/s (   1743 iterations)
+----------------------------------------------------------------------
+
+Taille: 186
+Sortie:
+tA=NoTrans tB=NoTrans M=  186 N=  186 K=  186: 1.686510e+01 GFlop/s (   1554 iterations)
+----------------------------------------------------------------------
+
+Taille: 193
+Sortie:
+tA=NoTrans tB=NoTrans M=  193 N=  193 K=  193: 1.834157e+01 GFlop/s (   1391 iterations)
+----------------------------------------------------------------------
+
+Taille: 200
+Sortie:
+tA=NoTrans tB=NoTrans M=  200 N=  200 K=  200: 1.966599e+01 GFlop/s (   1250 iterations)
+----------------------------------------------------------------------
+
+Taille: 207
+Sortie:
+tA=NoTrans tB=NoTrans M=  207 N=  207 K=  207: 1.317642e+01 GFlop/s (   1127 iterations)
+----------------------------------------------------------------------
+
+Taille: 215
+Sortie:
+tA=NoTrans tB=NoTrans M=  215 N=  215 K=  215: 1.312342e+01 GFlop/s (   1006 iterations)
+----------------------------------------------------------------------
+
+Taille: 223
+Sortie:
+tA=NoTrans tB=NoTrans M=  223 N=  223 K=  223: 1.423833e+01 GFlop/s (    901 iterations)
+----------------------------------------------------------------------
+
+Taille: 231
+Sortie:
+tA=NoTrans tB=NoTrans M=  231 N=  231 K=  231: 1.428032e+01 GFlop/s (    811 iterations)
+----------------------------------------------------------------------
+
+Taille: 240
+Sortie:
+tA=NoTrans tB=NoTrans M=  240 N=  240 K=  240: 2.220676e+01 GFlop/s (    723 iterations)
+----------------------------------------------------------------------
+
+Taille: 249
+Sortie:
+tA=NoTrans tB=NoTrans M=  249 N=  249 K=  249: 1.897306e+01 GFlop/s (    647 iterations)
+----------------------------------------------------------------------
+
+Taille: 258
+Sortie:
+tA=NoTrans tB=NoTrans M=  258 N=  258 K=  258: 1.828146e+01 GFlop/s (    582 iterations)
+----------------------------------------------------------------------
+
+Taille: 268
+Sortie:
+tA=NoTrans tB=NoTrans M=  268 N=  268 K=  268: 1.597237e+01 GFlop/s (    519 iterations)
+----------------------------------------------------------------------
+
+Taille: 278
+Sortie:
+tA=NoTrans tB=NoTrans M=  278 N=  278 K=  278: 1.468413e+01 GFlop/s (    465 iterations)
+----------------------------------------------------------------------
+
+Taille: 288
+Sortie:
+tA=NoTrans tB=NoTrans M=  288 N=  288 K=  288: 2.139667e+01 GFlop/s (    418 iterations)
+----------------------------------------------------------------------
+
+Taille: 299
+Sortie:
+tA=NoTrans tB=NoTrans M=  299 N=  299 K=  299: 1.830468e+01 GFlop/s (    374 iterations)
+----------------------------------------------------------------------
+
+Taille: 310
+Sortie:
+tA=NoTrans tB=NoTrans M=  310 N=  310 K=  310: 1.655189e+01 GFlop/s (    335 iterations)
+----------------------------------------------------------------------
+
+Taille: 322
+Sortie:
+tA=NoTrans tB=NoTrans M=  322 N=  322 K=  322: 1.915468e+01 GFlop/s (    299 iterations)
+----------------------------------------------------------------------
+
+Taille: 334
+Sortie:
+tA=NoTrans tB=NoTrans M=  334 N=  334 K=  334: 1.700186e+01 GFlop/s (    268 iterations)
+----------------------------------------------------------------------
+
+Taille: 346
+Sortie:
+tA=NoTrans tB=NoTrans M=  346 N=  346 K=  346: 2.044023e+01 GFlop/s (    241 iterations)
+----------------------------------------------------------------------
+
+Taille: 359
+Sortie:
+tA=NoTrans tB=NoTrans M=  359 N=  359 K=  359: 1.697518e+01 GFlop/s (    216 iterations)
+----------------------------------------------------------------------
+
+Taille: 372
+Sortie:
+tA=NoTrans tB=NoTrans M=  372 N=  372 K=  372: 1.596944e+01 GFlop/s (    194 iterations)
+----------------------------------------------------------------------
+
+Taille: 386
+Sortie:
+tA=NoTrans tB=NoTrans M=  386 N=  386 K=  386: 1.712860e+01 GFlop/s (    173 iterations)
+----------------------------------------------------------------------
+
+Taille: 401
+Sortie:
+tA=NoTrans tB=NoTrans M=  401 N=  401 K=  401: 1.772508e+01 GFlop/s (    155 iterations)
+----------------------------------------------------------------------
+
+Taille: 415
+Sortie:
+tA=NoTrans tB=NoTrans M=  415 N=  415 K=  415: 1.569227e+01 GFlop/s (    139 iterations)
+----------------------------------------------------------------------
+
+Taille: 431
+Sortie:
+tA=NoTrans tB=NoTrans M=  431 N=  431 K=  431: 1.566305e+01 GFlop/s (    124 iterations)
+----------------------------------------------------------------------
+
+Taille: 447
+Sortie:
+tA=NoTrans tB=NoTrans M=  447 N=  447 K=  447: 1.628112e+01 GFlop/s (    111 iterations)
+----------------------------------------------------------------------
+
+Taille: 464
+Sortie:
+tA=NoTrans tB=NoTrans M=  464 N=  464 K=  464: 2.061609e+01 GFlop/s (    100 iterations)
+----------------------------------------------------------------------
+
+Taille: 481
+Sortie:
+tA=NoTrans tB=NoTrans M=  481 N=  481 K=  481: 1.874512e+01 GFlop/s (     89 iterations)
+----------------------------------------------------------------------
+
+Taille: 499
+Sortie:
+tA=NoTrans tB=NoTrans M=  499 N=  499 K=  499: 1.806390e+01 GFlop/s (     80 iterations)
+----------------------------------------------------------------------
+
+Taille: 518
+Sortie:
+tA=NoTrans tB=NoTrans M=  518 N=  518 K=  518: 1.700073e+01 GFlop/s (     71 iterations)
+----------------------------------------------------------------------
+
+Taille: 537
+Sortie:
+tA=NoTrans tB=NoTrans M=  537 N=  537 K=  537: 1.964578e+01 GFlop/s (     64 iterations)
+----------------------------------------------------------------------
+
+Taille: 557
+Sortie:
+tA=NoTrans tB=NoTrans M=  557 N=  557 K=  557: 1.764501e+01 GFlop/s (     57 iterations)
+----------------------------------------------------------------------
+
+Taille: 578
+Sortie:
+tA=NoTrans tB=NoTrans M=  578 N=  578 K=  578: 1.969104e+01 GFlop/s (     51 iterations)
+----------------------------------------------------------------------
+
+Taille: 599
+Sortie:
+tA=NoTrans tB=NoTrans M=  599 N=  599 K=  599: 1.762453e+01 GFlop/s (     46 iterations)
+----------------------------------------------------------------------
+
+Taille: 622
+Sortie:
+tA=NoTrans tB=NoTrans M=  622 N=  622 K=  622: 1.746473e+01 GFlop/s (     41 iterations)
+----------------------------------------------------------------------
+
+Taille: 645
+Sortie:
+tA=NoTrans tB=NoTrans M=  645 N=  645 K=  645: 1.816063e+01 GFlop/s (     37 iterations)
+----------------------------------------------------------------------
+
+Taille: 669
+Sortie:
+tA=NoTrans tB=NoTrans M=  669 N=  669 K=  669: 1.848379e+01 GFlop/s (     33 iterations)
+----------------------------------------------------------------------
+
+Taille: 694
+Sortie:
+tA=NoTrans tB=NoTrans M=  694 N=  694 K=  694: 1.822828e+01 GFlop/s (     29 iterations)
+----------------------------------------------------------------------
+
+Taille: 720
+Sortie:
+tA=NoTrans tB=NoTrans M=  720 N=  720 K=  720: 2.159370e+01 GFlop/s (     26 iterations)
+----------------------------------------------------------------------
+
+Taille: 746
+Sortie:
+tA=NoTrans tB=NoTrans M=  746 N=  746 K=  746: 1.962538e+01 GFlop/s (     24 iterations)
+----------------------------------------------------------------------
+
+Taille: 774
+Sortie:
+tA=NoTrans tB=NoTrans M=  774 N=  774 K=  774: 1.863170e+01 GFlop/s (     21 iterations)
+----------------------------------------------------------------------
+
+Taille: 803
+Sortie:
+tA=NoTrans tB=NoTrans M=  803 N=  803 K=  803: 1.968121e+01 GFlop/s (     19 iterations)
+----------------------------------------------------------------------
+
+Taille: 833
+Sortie:
+tA=NoTrans tB=NoTrans M=  833 N=  833 K=  833: 2.083087e+01 GFlop/s (     17 iterations)
+----------------------------------------------------------------------
+
+Taille: 864
+Sortie:
+tA=NoTrans tB=NoTrans M=  864 N=  864 K=  864: 2.141109e+01 GFlop/s (     15 iterations)
+----------------------------------------------------------------------
+
+Taille: 896
+Sortie:
+tA=NoTrans tB=NoTrans M=  896 N=  896 K=  896: 2.153888e+01 GFlop/s (     13 iterations)
+----------------------------------------------------------------------
+
+Taille: 930
+Sortie:
+tA=NoTrans tB=NoTrans M=  930 N=  930 K=  930: 2.132166e+01 GFlop/s (     12 iterations)
+----------------------------------------------------------------------
+
+Taille: 964
+Sortie:
+tA=NoTrans tB=NoTrans M=  964 N=  964 K=  964: 2.014009e+01 GFlop/s (     11 iterations)
+----------------------------------------------------------------------
+
+Taille: 1000
+Sortie:
+tA=NoTrans tB=NoTrans M= 1000 N= 1000 K= 1000: 2.170523e+01 GFlop/s (     10 iterations)
+----------------------------------------------------------------------
+
+Taille: 1038
+Sortie:
+tA=NoTrans tB=NoTrans M= 1038 N= 1038 K= 1038: 2.045894e+01 GFlop/s (      8 iterations)
+----------------------------------------------------------------------
+
+Taille: 1076
+Sortie:
+tA=NoTrans tB=NoTrans M= 1076 N= 1076 K= 1076: 2.129796e+01 GFlop/s (      8 iterations)
+----------------------------------------------------------------------
+
+Taille: 1116
+Sortie:
+tA=NoTrans tB=NoTrans M= 1116 N= 1116 K= 1116: 2.124441e+01 GFlop/s (      7 iterations)
+----------------------------------------------------------------------
+
+Taille: 1158
+Sortie:
+tA=NoTrans tB=NoTrans M= 1158 N= 1158 K= 1158: 2.094239e+01 GFlop/s (      6 iterations)
+----------------------------------------------------------------------
+
+Taille: 1201
+Sortie:
+tA=NoTrans tB=NoTrans M= 1201 N= 1201 K= 1201: 2.229965e+01 GFlop/s (      5 iterations)
+----------------------------------------------------------------------
+
+Taille: 1246
+Sortie:
+tA=NoTrans tB=NoTrans M= 1246 N= 1246 K= 1246: 2.074857e+01 GFlop/s (      5 iterations)
+----------------------------------------------------------------------
+
+Taille: 1293
+Sortie:
+tA=NoTrans tB=NoTrans M= 1293 N= 1293 K= 1293: 2.139477e+01 GFlop/s (      4 iterations)
+----------------------------------------------------------------------
+
+Taille: 1341
+Sortie:
+tA=NoTrans tB=NoTrans M= 1341 N= 1341 K= 1341: 2.135271e+01 GFlop/s (      4 iterations)
+----------------------------------------------------------------------
+
+Taille: 1391
+Sortie:
+tA=NoTrans tB=NoTrans M= 1391 N= 1391 K= 1391: 2.104590e+01 GFlop/s (      3 iterations)
+----------------------------------------------------------------------
+
+Taille: 1443
+Sortie:
+tA=NoTrans tB=NoTrans M= 1443 N= 1443 K= 1443: 2.220151e+01 GFlop/s (      3 iterations)
+----------------------------------------------------------------------
+
+Taille: 1496
+Sortie:
+tA=NoTrans tB=NoTrans M= 1496 N= 1496 K= 1496: 2.333428e+01 GFlop/s (      3 iterations)
+----------------------------------------------------------------------
+
+Taille: 1552
+Sortie:
+tA=NoTrans tB=NoTrans M= 1552 N= 1552 K= 1552: 2.361144e+01 GFlop/s (      3 iterations)
+----------------------------------------------------------------------
+
+Taille: 1610
+Sortie:
+tA=NoTrans tB=NoTrans M= 1610 N= 1610 K= 1610: 2.313819e+01 GFlop/s (      3 iterations)
+----------------------------------------------------------------------
+
+Taille: 1670
+Sortie:
+tA=NoTrans tB=NoTrans M= 1670 N= 1670 K= 1670: 2.249841e+01 GFlop/s (      3 iterations)
+----------------------------------------------------------------------
+
+Taille: 1732
+Sortie:
+tA=NoTrans tB=NoTrans M= 1732 N= 1732 K= 1732: 2.282179e+01 GFlop/s (      3 iterations)
+----------------------------------------------------------------------
+
+Taille: 1797
+Sortie:
+tA=NoTrans tB=NoTrans M= 1797 N= 1797 K= 1797: 2.313041e+01 GFlop/s (      3 iterations)
+----------------------------------------------------------------------
+
+Taille: 1864
+Sortie:
+tA=NoTrans tB=NoTrans M= 1864 N= 1864 K= 1864: 2.416830e+01 GFlop/s (      3 iterations)
+----------------------------------------------------------------------
+
+Taille: 1933
+Sortie:
+tA=NoTrans tB=NoTrans M= 1933 N= 1933 K= 1933: 2.323101e+01 GFlop/s (      3 iterations)
+----------------------------------------------------------------------
+
+Taille: 2006
+Sortie:
+tA=NoTrans tB=NoTrans M= 2006 N= 2006 K= 2006: 2.311040e+01 GFlop/s (      3 iterations)
+----------------------------------------------------------------------
+
+Taille: 2080
+Sortie:
+tA=NoTrans tB=NoTrans M= 2080 N= 2080 K= 2080: 2.436104e+01 GFlop/s (      3 iterations)
+----------------------------------------------------------------------
+
+Taille: 2158
+Sortie:
+tA=NoTrans tB=NoTrans M= 2158 N= 2158 K= 2158: 2.339879e+01 GFlop/s (      3 iterations)
+----------------------------------------------------------------------
+
+Taille: 2238
+Sortie:
+tA=NoTrans tB=NoTrans M= 2238 N= 2238 K= 2238: 2.386695e+01 GFlop/s (      3 iterations)
+----------------------------------------------------------------------
+
+Taille: 2322
+Sortie:
+tA=NoTrans tB=NoTrans M= 2322 N= 2322 K= 2322: 2.456020e+01 GFlop/s (      3 iterations)
+----------------------------------------------------------------------
+
+Taille: 2408
+Sortie:
+tA=NoTrans tB=NoTrans M= 2408 N= 2408 K= 2408: 2.467988e+01 GFlop/s (      3 iterations)
+----------------------------------------------------------------------
+
+Taille: 2498
+Sortie:
+tA=NoTrans tB=NoTrans M= 2498 N= 2498 K= 2498: 2.444761e+01 GFlop/s (      3 iterations)
+----------------------------------------------------------------------
+
+Taille: 2591
+Sortie:
+tA=NoTrans tB=NoTrans M= 2591 N= 2591 K= 2591: 2.367262e+01 GFlop/s (      3 iterations)
+----------------------------------------------------------------------
+
+Taille: 2688
+Sortie:
+tA=NoTrans tB=NoTrans M= 2688 N= 2688 K= 2688: 2.520100e+01 GFlop/s (      3 iterations)
+----------------------------------------------------------------------
+
+Taille: 2788
+Sortie:
+tA=NoTrans tB=NoTrans M= 2788 N= 2788 K= 2788: 2.454262e+01 GFlop/s (      3 iterations)
+----------------------------------------------------------------------
+
+Taille: 2892
+Sortie:
+tA=NoTrans tB=NoTrans M= 2892 N= 2892 K= 2892: 2.460084e+01 GFlop/s (      3 iterations)
+----------------------------------------------------------------------
+
+Taille: 3000
+Sortie:
+tA=NoTrans tB=NoTrans M= 3000 N= 3000 K= 3000: 2.554225e+01 GFlop/s (      3 iterations)
+----------------------------------------------------------------------
+

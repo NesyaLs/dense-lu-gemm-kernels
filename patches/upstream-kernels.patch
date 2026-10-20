@@ -1,0 +1,291 @@
+Changes to two mini-chameleon template kernels (dgemm_seq.c, dgemm_tiled_omp.c):
+AVX2 8x6 micro-kernel, cache blocking and OpenMP parallelisation of the tiled DGEMM.
+Base: mini-chameleon commit 2a8b12b098c9348af3bbf77166afbc15644a313f
+
+diff --git a/myblas/dgemm_seq.c b/myblas/dgemm_seq.c
+index f549072..da40509 100644
+--- a/myblas/dgemm_seq.c
++++ b/myblas/dgemm_seq.c
+@@ -13,6 +13,8 @@
+  *
+  */
+ #include "myblas.h"
++#include <immintrin.h>
++
+ 
+ // Exemple of ways to add additionnal parameters to your kernel
+ // See the registration function to change its value
+@@ -28,18 +30,7 @@ int dgemm_seq( CBLAS_LAYOUT layout, CBLAS_TRANSPOSE transA,
+ 
+     if ( transA == CblasNoTrans ) {
+         if ( transB == CblasNoTrans ) {
+-            for( n=0; n<N; n++ ) {
+-                if ( beta != 1. ) {
+-                    for( m=0; m<M; m++ ) {
+-                        C[ ldc * n + m ] = beta * C[ ldc * n + m ];
+-                    }
+-                }
+-                for( k=0; k<K; k++ ) {
+-                    for( m=0; m<M; m++ ) {
+-                        C[ ldc * n + m ] += alpha * A[ lda * k + m ] * B[ ldb * n + k ];
+-                    }
+-                }
+-            }
++            return dgemm_blocked(layout, transA, transB, M, N, K, alpha, A, lda, B, ldb, beta, C, ldc);
+         }
+         else {
+             for( m=0; m<M; m++ ) {
+@@ -80,10 +71,180 @@ int dgemm_seq( CBLAS_LAYOUT layout, CBLAS_TRANSPOSE transA,
+             }
+         }
+     }
++    return ALGONUM_SUCCESS;
++}
++
++
++// Micro-kernel 8x6 pour matrices Column Major
++// M_R = 8 (2 vecteurs AVX de hauteur)
++// N_R = 6 (6 colonnes de large)
++// Utilise 12 registres accumulateurs (YMM0 -> YMM11)
++int kernel_8x6_avx2(int K, const double *A, int lda, 
++                     const double *B, int ldb, 
++                     double *C, int ldc, 
++                     double alpha, double beta) 
++{
++    // --- 1. Initialisation des registres accumulateurs ---
++    // C_col_rowchunk (ex: c3_0 = colonne 3, lignes 0-3)
++    __m256d c0_0, c0_1, c1_0, c1_1, c2_0, c2_1;
++    __m256d c3_0, c3_1, c4_0, c4_1, c5_0, c5_1;
++    
++    c0_0 = _mm256_setzero_pd(); c0_1 = _mm256_setzero_pd();
++    c1_0 = _mm256_setzero_pd(); c1_1 = _mm256_setzero_pd();
++    c2_0 = _mm256_setzero_pd(); c2_1 = _mm256_setzero_pd();
++    c3_0 = _mm256_setzero_pd(); c3_1 = _mm256_setzero_pd();
++    c4_0 = _mm256_setzero_pd(); c4_1 = _mm256_setzero_pd();
++    c5_0 = _mm256_setzero_pd(); c5_1 = _mm256_setzero_pd();
++
++    __m256d a0, a1; // Pour stocker A[0..3] et A[4..7]
++    __m256d b_val;  // Pour broadcaster la valeur de B
++
++    for (int k = 0; k < K; k++) {
++        
++        // Chargement de A (Colonne k, lignes 0..7)
++        a0 = _mm256_loadu_pd(&A[k * lda + 0]); // Lignes 0-3
++        a1 = _mm256_loadu_pd(&A[k * lda + 4]); // Lignes 4-7
++
++        /* --- Colonne 0 de B --- */
++        b_val = _mm256_set1_pd(B[0 * ldb + k]);
++        c0_0 = _mm256_fmadd_pd(a0, b_val, c0_0);
++        c0_1 = _mm256_fmadd_pd(a1, b_val, c0_1);
++
++        /* --- Colonne 1 de B --- */
++        b_val = _mm256_set1_pd(B[1 * ldb + k]);
++        c1_0 = _mm256_fmadd_pd(a0, b_val, c1_0);
++        c1_1 = _mm256_fmadd_pd(a1, b_val, c1_1);
++
++        /* --- Colonne 2 de B --- */
++        b_val = _mm256_set1_pd(B[2 * ldb + k]);
++        c2_0 = _mm256_fmadd_pd(a0, b_val, c2_0);
++        c2_1 = _mm256_fmadd_pd(a1, b_val, c2_1);
++
++        /* --- Colonne 3 de B --- */
++        b_val = _mm256_set1_pd(B[3 * ldb + k]);
++        c3_0 = _mm256_fmadd_pd(a0, b_val, c3_0);
++        c3_1 = _mm256_fmadd_pd(a1, b_val, c3_1);
++
++        /* --- Colonne 4 de B --- */
++        b_val = _mm256_set1_pd(B[4 * ldb + k]);
++        c4_0 = _mm256_fmadd_pd(a0, b_val, c4_0);
++        c4_1 = _mm256_fmadd_pd(a1, b_val, c4_1);
++
++        /* --- Colonne 5 de B --- */
++        b_val = _mm256_set1_pd(B[5 * ldb + k]);
++        c5_0 = _mm256_fmadd_pd(a0, b_val, c5_0);
++        c5_1 = _mm256_fmadd_pd(a1, b_val, c5_1);
++    }
++
++    // --- 3. Finalisation et Stockage ---
++    // C = beta * C + alpha * Acc
++    
++    __m256d alpha_vec = _mm256_set1_pd(alpha);
++    __m256d beta_vec  = _mm256_set1_pd(beta);
++    
++    // Macro ou fonction inline pour sauvegarder proprement
++    // Charge C existant, multiplie par beta, ajoute (alpha * acc), stocke.
++    #define UPDATE_C(c_reg, row_offset, col_idx) \
++        { \
++            double *c_ptr = &C[(col_idx) * ldc + (row_offset)]; \
++            __m256d c_mem = _mm256_loadu_pd(c_ptr); \
++            /* tmp = alpha * acc */ \
++            __m256d res = _mm256_mul_pd(c_reg, alpha_vec); \
++            /* res = res + beta * c_mem */ \
++            res = _mm256_fmadd_pd(c_mem, beta_vec, res); \
++            _mm256_storeu_pd(c_ptr, res); \
++        }
++
++    UPDATE_C(c0_0, 0, 0); UPDATE_C(c0_1, 4, 0);
++    UPDATE_C(c1_0, 0, 1); UPDATE_C(c1_1, 4, 1);
++    UPDATE_C(c2_0, 0, 2); UPDATE_C(c2_1, 4, 2);
++    UPDATE_C(c3_0, 0, 3); UPDATE_C(c3_1, 4, 3);
++    UPDATE_C(c4_0, 0, 4); UPDATE_C(c4_1, 4, 4);
++    UPDATE_C(c5_0, 0, 5); UPDATE_C(c5_1, 4, 5);
+ 
+     return ALGONUM_SUCCESS;
+ }
+ 
++int process_tile(CBLAS_LAYOUT layout, CBLAS_TRANSPOSE transA,
++                 CBLAS_TRANSPOSE transB, const int M, const int N,
++                 const int K, const double alpha, const double *A,
++                 const int lda, const double *B, const int ldb,
++                 const double beta, double *C, const int ldc)
++{
++    int m, n;
++    
++    // On calcule les limites où la partie AVX s'arrête
++    int n_limit = (N / 6) * 6; // Multiple de 6
++    int m_limit = (M / 8) * 8; // Multiple de 8
++
++    for (n = 0; n < n_limit; n += 6) {
++        for (m = 0; m < m_limit; m += 8) {
++             kernel_8x6_avx2(K, 
++                             &A[m], lda,        // A[m, 0]
++                             &B[n * ldb], ldb,  // B[0, n]
++                             &C[n * ldc + m], ldc, 
++                             alpha, beta);
++        }
++
++        // Résidus bas (Scalaire) pour CES 6 colonnes
++        for (int nn = n; nn < n + 6; nn++) {
++            for (int mm = m_limit; mm < M; mm++) {
++                double sum = 0.0;
++                for (int k = 0; k < K; k++) {
++                    sum += A[k * lda + mm] * B[nn * ldb + k];
++                }
++                if (beta == 0.0)
++                    C[nn * ldc + mm] = alpha * sum;
++                else
++                    C[nn * ldc + mm] = beta * C[nn * ldc + mm] + alpha * sum;
++            }
++        }
++    }
++
++    // Résidu à droite (Vectorisé) de toutes les lignes traitées par le kernel avx
++    
++    __m256d alpha_v = _mm256_set1_pd(alpha);
++    __m256d beta_v  = _mm256_set1_pd(beta);
++
++    for (n = n_limit; n < N; n++) { 
++        for (m = 0; m <= M - 4; m += 4) {
++            __m256d c_sum = _mm256_setzero_pd();
++            
++            for (int k = 0; k < K; k++) {
++                __m256d a_vec = _mm256_loadu_pd(&A[k * lda + m]);
++                __m256d b_val = _mm256_set1_pd(B[n * ldb + k]);
++                c_sum = _mm256_fmadd_pd(a_vec, b_val, c_sum);
++            }
++            
++            double *c_ptr = &C[n * ldc + m];
++            
++            if (beta == 0.0) {
++                 c_sum = _mm256_mul_pd(c_sum, alpha_v);
++                 _mm256_storeu_pd(c_ptr, c_sum);
++            } else {
++                 __m256d c_old = _mm256_loadu_pd(c_ptr);
++                 c_sum = _mm256_mul_pd(c_sum, alpha_v);
++                 c_sum = _mm256_fmadd_pd(c_old, beta_v, c_sum);
++                 _mm256_storeu_pd(c_ptr, c_sum);
++            }
++        }
++        
++        // Tout dernier résidu scalaire (bas droit, pixel par pixel)
++        for (; m < M; m++) {
++            double sum = 0.0;
++            for (int k = 0; k < K; k++) {
++                sum += A[k * lda + m] * B[n * ldb + k];
++            }
++            if (beta == 0.0)
++                C[n * ldc + m] = alpha * sum;
++            else
++                C[n * ldc + m] = beta * C[n * ldc + m] + alpha * sum;
++        }
++    }
++    
++    return ALGONUM_SUCCESS; 
++}
++
+ /* To make sure we use the right prototype */
+ static dgemm_fct_t valid_dgemm_seq __attribute__ ((unused)) = dgemm_seq;
+ 
+diff --git a/myblas/dgemm_tiled_omp.c b/myblas/dgemm_tiled_omp.c
+index 99879a0..1f15d82 100644
+--- a/myblas/dgemm_tiled_omp.c
++++ b/myblas/dgemm_tiled_omp.c
+@@ -13,6 +13,7 @@
+  *
+  */
+ #include "myblas.h"
++#include <omp.h>
+ 
+ int dgemm_tiled_omp( CBLAS_LAYOUT layout,
+                      CBLAS_TRANSPOSE transA, CBLAS_TRANSPOSE transB,
+@@ -30,17 +31,18 @@ int dgemm_tiled_omp( CBLAS_LAYOUT layout,
+ 
+     if ( transA == CblasNoTrans ) {
+         if ( transB == CblasNoTrans ) {
++            
++            #pragma omp parallel for collapse(2) private(m, n, k, mm, nn, kk, lbeta) schedule(dynamic)
+             for( m=0; m<MT; m++ ) {
+-                mm = m == (MT-1) ? M - m * b : b;
+-
+                 for( n=0; n<NT; n++ ) {
++                    mm = m == (MT-1) ? M - m * b : b;
+                     nn = n == (NT-1) ? N - n * b : b;
+ 
+                     for( k=0; k<KT; k++ ) {
+                         kk = k == (KT-1) ? K - k * b : b;
+ 
+                         lbeta = (k == 0) ? beta : 1.;
+-                        dgemm_seq( CblasColMajor, transA, transB,
++                        process_tile( CblasColMajor, transA, transB,
+                                    mm, nn, kk,
+                                    alpha, A[ MT * k + m ], b,
+                                           B[ KT * n + k ], b,
+@@ -48,6 +50,38 @@ int dgemm_tiled_omp( CBLAS_LAYOUT layout,
+                     }
+                 }
+             }
++
++            // #pragma omp parallel
++            // {
++            //     #pragma omp single nowait
++            //     {
++            //         for (m = 0; m < MT; m++) {
++            //             mm = (m == MT-1) ? M - m*b : b;
++
++            //             for (n = 0; n < NT; n++) {
++            //                 nn = (n == NT-1) ? N - n*b : b;
++
++            //                 #pragma omp task firstprivate(m,n,mm,nn) private(k,kk,lbeta)
++            //                 {
++            //                     for (k = 0; k < KT; k++) {
++            //                         kk = (k == KT-1) ? K - k*b : b;
++            //                         lbeta = (k == 0 ? beta : 1.);
++
++            //                         process_tile(
++            //                             CblasColMajor, transA, transB,
++            //                             mm, nn, kk,
++            //                             alpha,
++            //                             A[MT * k + m], b,
++            //                             B[KT * n + k], b,
++            //                             lbeta,
++            //                             C[MT * n + m], b
++            //                         );
++            //                     }
++            //                 }
++            //             }
++            //         }
++            //     }
++            // }
+         }
+         else {
+             for( m=0; m<MT; m++ ) {
